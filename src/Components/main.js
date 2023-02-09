@@ -300,10 +300,6 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
                 <Col className='col-md-5 text-black'>
                 <Button className={'btn1 b shadow-3'} style={{'background-color':`${value100912}`, 'color':`${value10059}`, 'border':`${value10057}`} } >変動レート</Button>
                 </Col>
-                
-                <Col className='col-md-4 text-black'>
-                <Button className={'btn1 b shadow-3'} style={{'background-color':`${value100912}`, 'color':`${value10059}`, 'border':`${value10057}`} } >固定レート</Button>
-                </Col>
             </Row>
 
             <Row className='mt-3'>
