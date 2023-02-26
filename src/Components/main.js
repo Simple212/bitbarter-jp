@@ -238,7 +238,7 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
         <Row className='d-flex justify-content-end  align-items-center row_0' style={{'background-color':`${value10085}`}} >
         
         <Col className='col-md-3 d-flex justify-content-center align-items-center flex-row' > <a className="btn45 mt-1 me-2 f6 grow no-underline ba bw1 ph2 pv1 mb1 dib b text-white pt-1">検索</a>
-        <input id="name" placeholder='ご注文ID' className="b input-reset ba b--black-20 pt-2 pb-2 ps-2 db w-60" type="text" aria-describedby="name-desc" /> </Col>
+        <input id="name" placeholder='ご注文' className="b input-reset ba b--black-20 pt-2 pb-2 ps-2 db w-60" type="text" aria-describedby="name-desc" /> </Col>
         
         </Row>
         <Navbar bg={theme} expand="lg" className='navbar1'>
@@ -249,7 +249,7 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto d-flex justify-content-center align-items-center">
-                        <Nav.Link href="#home" style={{'color':`${value1008}`}} className='d-flex justify-content-center align-items-center navlink'>財布 <img src={require(`${value10091}`)}   className='ms-2' width={'17px'}/>
+                        <Nav.Link href="#home" style={{'color':`${value1008}`}} className='d-flex justify-content-center align-items-center navlink'>財布<img src={require(`${value10091}`)}   className='ms-2' width={'17px'}/>
                         <span className="b span45 d-flex justify-content-center align-items-center" style={{'color':`${value10092}`}}>作業</span>
                         </Nav.Link>
                         <Nav.Link href="#home" style={{'color':`${value1008}`}} className='d-flex justify-content-center align-items-center navlink'>システムステータス <img src={require(`${value10091}`)} className='ms-2' width={'17px'}/>
